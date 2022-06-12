@@ -1,0 +1,5 @@
+query GetAllFruits {
+  fruits {
+    fruit_name
+  }
+}
