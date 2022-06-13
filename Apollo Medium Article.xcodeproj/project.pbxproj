@@ -17,6 +17,7 @@
 		BB3A301728512B0F0030E302 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3A301628512B0F0030E302 /* schema.json */; };
 		BB8DD32A28545DCD006F77C3 /* GetAllFruits.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BB8DD32928545DCD006F77C3 /* GetAllFruits.graphql */; };
 		BB8DD32C28545EC2006F77C3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DD32B28545EC2006F77C3 /* API.swift */; };
+		BBE97CB428566B940078DE99 /* AddFruitMutation.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BB3A301628512B0F0030E302 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		BB8DD32928545DCD006F77C3 /* GetAllFruits.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetAllFruits.graphql; sourceTree = "<group>"; };
 		BB8DD32B28545EC2006F77C3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AddFruitMutation.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				BB3A3008285125000030E302 /* Assets.xcassets */,
 				BB3A300A285125000030E302 /* LaunchScreen.storyboard */,
 				BB3A300D285125000030E302 /* Info.plist */,
+				BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */,
 			);
 			path = "Apollo Medium Article";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				BB3A300C285125000030E302 /* LaunchScreen.storyboard in Resources */,
 				BB3A3009285125000030E302 /* Assets.xcassets in Resources */,
 				BB3A301728512B0F0030E302 /* schema.json in Resources */,
+				BBE97CB428566B940078DE99 /* AddFruitMutation.graphql in Resources */,
 				BB8DD32A28545DCD006F77C3 /* GetAllFruits.graphql in Resources */,
 				BB3A3007285124FF0030E302 /* Main.storyboard in Resources */,
 			);
