@@ -10,8 +10,19 @@ import Apollo
 
 class ViewController: UIViewController {
     
-    private let apollo = ApolloClient(url: URL(string: "https://fruits-api.netlify.app/graphql")!)
-
+    private let apollo: ApolloClient = {
+        let endpointURL = URL(string: "https://fruits-api.netlify.app/graphql")!
+        let store = ApolloStore()
+        let interceptorProvider = NetworkInterceptorsProvider(
+            interceptors: [TokenInterceptor(token: "your_token_here")],
+            store: store
+        )
+        let networkTransport = RequestChainNetworkTransport(
+            interceptorProvider: interceptorProvider, endpointURL: endpointURL
+        )
+        return ApolloClient(networkTransport: networkTransport, store: store)
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         getFruits { [weak self] fruits in

@@ -17,6 +17,8 @@
 		BB3A301728512B0F0030E302 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3A301628512B0F0030E302 /* schema.json */; };
 		BB8DD32A28545DCD006F77C3 /* GetAllFruits.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BB8DD32928545DCD006F77C3 /* GetAllFruits.graphql */; };
 		BB8DD32C28545EC2006F77C3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DD32B28545EC2006F77C3 /* API.swift */; };
+		BBA4E650287364BE009A7FF1 /* TokenInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4E64F287364BE009A7FF1 /* TokenInterceptor.swift */; };
+		BBA4E65428737041009A7FF1 /* NetworkInterceptorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4E65328737041009A7FF1 /* NetworkInterceptorsProvider.swift */; };
 		BBE97CB428566B940078DE99 /* AddFruitMutation.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		BB3A301628512B0F0030E302 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		BB8DD32928545DCD006F77C3 /* GetAllFruits.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetAllFruits.graphql; sourceTree = "<group>"; };
 		BB8DD32B28545EC2006F77C3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BBA4E64F287364BE009A7FF1 /* TokenInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInterceptor.swift; sourceTree = "<group>"; };
+		BBA4E65328737041009A7FF1 /* NetworkInterceptorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorsProvider.swift; sourceTree = "<group>"; };
 		BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AddFruitMutation.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 				BB3A300A285125000030E302 /* LaunchScreen.storyboard */,
 				BB3A300D285125000030E302 /* Info.plist */,
 				BBE97CB328566B940078DE99 /* AddFruitMutation.graphql */,
+				BBA4E64F287364BE009A7FF1 /* TokenInterceptor.swift */,
+				BBA4E65328737041009A7FF1 /* NetworkInterceptorsProvider.swift */,
 			);
 			path = "Apollo Medium Article";
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			mainGroup = BB3A2FF3285124FF0030E302;
 			packageReferences = (
 				BB3A3013285127DD0030E302 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				BBA4E64E28733B9C009A7FF1 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = BB3A2FFD285124FF0030E302 /* Products */;
 			projectDirPath = "";
@@ -185,6 +192,8 @@
 			files = (
 				BB3A3004285124FF0030E302 /* ViewController.swift in Sources */,
 				BB3A3000285124FF0030E302 /* AppDelegate.swift in Sources */,
+				BBA4E650287364BE009A7FF1 /* TokenInterceptor.swift in Sources */,
+				BBA4E65428737041009A7FF1 /* NetworkInterceptorsProvider.swift in Sources */,
 				BB8DD32C28545EC2006F77C3 /* API.swift in Sources */,
 				BB3A3002285124FF0030E302 /* SceneDelegate.swift in Sources */,
 			);
